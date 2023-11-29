@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(39, 27, 83);
+    background: radial-gradient(circle, rgba(39, 27, 83, 1) 35%, rgba(4, 0, 27, 1) 100%);
+    font-family: 'Arvo', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 50px rgba(255, 255, 255, 0.344);
+    padding: 10px;
+    color: black;
+}
+
+.index {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main p {
+    width: 470px;
+    text-align: justify;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.327);
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+div a {
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgba(255, 255, 255, 0.344);
+    transition: .5s;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+div a:hover {
+    box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.525);
+}
+
+footer {
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+footer p {
+    margin: 20px;
+    color: white;
+}
+
+/* Departamento */
+
+#sectionDepartamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+#departamento {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+}
+
+#departamento fieldset {
+    width: 500px;
+    height: 170px;
+    border-radius: 10px;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#departamento fieldset legend {
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#departamento fieldset label {
+    color: white;
+    font-size: 30px;
+}
+
+#departamento fieldset input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+#departamento fieldset button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+#departamento fieldset button:hover {
+    background-color: rgb(175, 173, 173);
+}
+
+#departamento fieldset div {
+    display: flex;
+    gap: 20px;
+}
+
+/* Funcionario */
+
+#sectionDepartamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+#funcionario {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+}
+
+#funcionario fieldset {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#funcionario #buscar {
+    height: 200px;
+}
+
+#funcionario fieldset #funCadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+#funcionario fieldset #funCadastro input {
+    width: 300px;
+}
+
+#funcionario fieldset legend {
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#funcionario fieldset label {
+    color: white;
+    font-size: 30px;
+}
+
+#funcionario fieldset input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+#funcionario fieldset button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+#funcionario fieldset button:hover {
+    background-color: rgb(175, 173, 173);
+}
+
+#funcionario fieldset div {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Quem?*/
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+figcaption {
+    color: white;
+    font-family: 'Arvo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+section figure img {
+    width: 25%;
+    border-radius: 100%;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.429);
+}

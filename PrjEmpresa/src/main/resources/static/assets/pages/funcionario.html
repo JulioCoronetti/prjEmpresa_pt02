@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionario</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="departamento.html">Departamento</a></li>
+            <li><a href="funcionario.html">Funcionario</a></li>
+            <li><a href="quem.html">Quem?</a></li>
+        </ul>
+    </nav>
+
+    <section id="sectionFuncionario">
+        <h1>Funcionario</h1>
+        <form id="funcionario">
+            <fieldset>
+                <legend>Cadastro💼</legend>
+                <label for="depnome">Nome do funcionario:</label>
+                <div id="funCadastro">
+                    <input type="text" placeholder="Digite o nome:" id="funnome">
+                    <input type="date" id="funnascimento">
+                    <input type="text" placeholder="Digite o salário:" id="funsalario">
+                    <input type="text" placeholder="Digite o departamento" id="fundepartamento">
+                    <button>Cadastrar</button>
+                </div>
+            </fieldset>
+            <fieldset id="buscar">
+                <legend>Buscar🔍</legend>
+                <label for="depcodigo">Código do departamento:</label>
+                <div>
+                    <input type="number" placeholder="Digite o codigo:" id="depcodigo">
+                    <button>Buscar</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+
+</html>
